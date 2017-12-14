@@ -1,0 +1,91 @@
+\documentclass[onecolumn,10pt]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{amsthm, amssymb,amsmath}
+\usepackage{mathtools}
+\usepackage{pgfplots}
+\usepackage{todonotes}
+\usepackage{caption}
+\usepackage{dsfont}
+\usepackage[capitalize]{cleveref}
+
+\renewcommand{\:}{\mathrel{\coloneqq}}
+\renewcommand{\=}{\ensuremath{\eqqcolon}}
+\usepackage[caption=false, font=normalsize, labelfont=sf, textfont=sf]{subfig}
+\newcommand{\dd}{\ensuremath{\,\mathrm{d}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+
+\newcommand{\todoJ}[1]{\todo[inline,color=green!30!white]{Juliette: #1}}
+\newcommand{\todoE}[1]{\todo[inline,color=red!30!white]{Emily: #1}}
+\newcommand{\todoGt}[1]{\todo[inline,color=blue!30!white]{Gabriel: #1}}
+
+\newcommand{\rr}{\text{r}}
+\newcommand{\nr}{\text{nr}}
+\newtheorem*{proofsketch}{Sketch of proof}
+\title{A software framework for solving dynamic traffic assignment}
+\author{}
+
+\date{\today}
+\newtheorem{Definition}{Definition}
+\newtheorem*{Routing}{Routing}
+\newtheorem{Results}{Results}
+\newtheorem{Remark}{Remark}
+\newtheorem{Example}{Example}
+\newtheorem{Theorem}{Theorem}
+\newtheorem{Challenge}{Challenge}
+\newtheorem{Prop}{Proposition}
+
+\newcommand{\A}{\mathcal{E}}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\I}{\mathcal{C}}
+\newcommand{\source}{\mathcal{S}}
+\newcommand{\sink}{\mathcal{D}}
+\newcommand{\Aout}{\mathcal{E}_{\text{out}}}
+\newcommand{\Ain}{\mathcal{E}_{\text{in}}}
+\newcommand{\paths}{\mathcal{P}}
+\newcommand{\x}{\boldsymbol{x}}
+\newcommand{\bg}{\boldsymbol{g}}
+\newcommand{\bu}{\boldsymbol{u}}
+\newcommand{\btau}{\boldsymbol{\tau}}
+\newcommand{\btheta}{\boldsymbol{\theta}}
+\newcommand{\bh}{\boldsymbol{h}}
+\newcommand{\bb}{\boldsymbol{b}}
+\newcommand{\app}{\text{app}}
+\newcommand{\napp}{\text{non-app}}
+\newcommand{\shortp}{\mathcal{Y}}
+\DeclareMathOperator*{\argmin}{arg\,\min}
+\pgfplotsset{compat = 1.14}
+\begin{document}
+
+\maketitle
+\begin{abstract}
+
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+\section{Variational Inequality for DTA}
+
+\section{Software Framework Description}
+
+\section{Traffic Models}
+
+\subsection{Static Model}
+\subsection{MN Model}
+\subsection{Point Queue Model}
+
+\section{Implemented Algorithms}
+\subsection{Method of Successive Averages}
+\subsection{Frank-Wolfe Algorithm}
+\subsection{Extra Projection Methods}
+
+\section{Numerical Results}
+
+\section{Conclusions}\label{sec:concl}
+
+
+\section*{Acknowledgements}
+
+\bibliographystyle{alpha}
+\bibliography{citation.bib}
+\end{document}
